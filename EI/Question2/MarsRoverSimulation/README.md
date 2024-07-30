@@ -19,22 +19,20 @@ Design Patterns and Principles
 
 
 
-Project Structure
-MarsRoverSimulation/
-│
-├── src/
-│   ├── Direction.java         # Enum for rover's direction
-│   ├── Grid.java              # Represents the grid and obstacles
-│   ├── MarsRover.java         # Mars Rover implementation
-│   ├── Command.java           # Command interface
-│   ├── MoveCommand.java       # Command to move the rover
-│   ├── TurnLeftCommand.java   # Command to turn the rover left
-│   ├── TurnRightCommand.java  # Command to turn the rover right
-│   ├── RoverControl.java      # Invoker for commands
-│   └── MarsRoverSimulation.java # Main class to run the simulation
-│
-├── README.md                 # Project documentation
-└── build/                    # Build artifacts
+
+
+Direction.java   	                      -->       # Enum for rover's direction
+Grid.java        	                      -->       # Represents the grid and obstacles
+MarsRover.java   	       		      -->       # Mars Rover implementation
+Command.java     	                      -->       # Command interface
+MoveCommand.java 	                      -->       # Command to move the rover
+TurnLeftCommand.java                          -->  	# Command to turn the rover left
+TurnRightCommand.java                         -->	# Command to turn the rover right
+RoverControl.java                             -->	# Invoker for commands
+MarsRoverSimulation.java                      -->	# Main class to run the simulation
+ README.md                                    -->       # Project documentation
+ build/                                       -->       # Build artifacts
+
 
 
 Prerequisites
