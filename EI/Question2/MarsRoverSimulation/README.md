@@ -55,9 +55,9 @@ Follow the prompts to:
 4. **Enter Commands:** Input a sequence of commands (M for move, L for turn left, R for turn right).
 
 ## Sample Output
-![output-1](images/output1.png)
+![output-1](images/op1.png)
 
 
-![output-2](images/output2.png)
+![output-2](images/op2.png)
 ## Contact
 For questions or feedback, please contact [bhuvani1102@gmail.com](mailto:bhuvani1102@gmail.com).
